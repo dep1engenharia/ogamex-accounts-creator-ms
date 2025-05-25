@@ -17,7 +17,7 @@ It is packaged as a Docker container and exposes a REST API to trigger the autom
 
    - Logs out and repeats the process
 
-   - Returns a list of created email accounts
+   - Returns a list of created email accounts 
 ```
 📥 API Endpoint
 ---------------
