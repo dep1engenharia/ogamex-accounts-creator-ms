@@ -1,0 +1,3 @@
+
+docker tag ogamex-accounts-criator-ms userid/ogamex-accounts-criator-ms:latest
+docker push userid/ogamex-accounts-criator-ms:latest

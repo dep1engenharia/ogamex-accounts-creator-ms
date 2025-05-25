@@ -1,0 +1,15 @@
+services:
+  ogamex-accounts-criator-ms:
+    image: ogamex-accounts-criator-ms
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ogamex-accounts-criator-ms
+    ports:
+      - "8081:8081"
+   # networks:
+   #   - ogamex_app-network
+
+#*networks:
+ # ogamex_app-network:
+  #  external: true
