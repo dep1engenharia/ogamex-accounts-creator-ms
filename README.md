@@ -36,6 +36,8 @@ It is packaged as a Docker container and exposes a REST API to trigger the autom
 
 ![image](https://github.com/user-attachments/assets/e168ab86-03a0-4a18-a8e4-47206f57b9c2)
 
+> **Note:** You can generate 1,000 accounts (or more) in a single request. However, this process may take a couple of hours depending on your machine's performance. This functionality is still under fine-tuning.
+
 📤 Example Response:
 
 
@@ -457,3 +459,11 @@ Run the container:
 
 docker run -d -p 8081:8081 a1vieira/ogamex-accounts-criator-ms:latest
 ```
+
+## 🔮 Upcoming Features
+
+This microservice will evolve beyond account creation — it will soon be able to assign different resources, facilities, and fleets to each account. The goal is to simulate a large-scale, vibrant universe where automation can even trigger attacks between players, bringing the **OgameX** universe to life. 🌌
+
+## 🙌 Acknowledgements
+
+Special thanks to [@lanedirt](https://github.com/lanedirt) for the incredible **OgameX** project. This microservice was built to integrate seamlessly with it, making account creation fast and automated. 🚀
